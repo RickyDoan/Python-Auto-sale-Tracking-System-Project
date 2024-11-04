@@ -2,7 +2,7 @@ import streamlit as st
 from add_update_ui import get_update_tab
 from analytics_by_productline import get_analytics_productline_tab
 from analytics_by_country import get_analytics_country_tab
-url ='http://localhost:8000'
+
 
 st.title("Auto Sales Tracking System")
 
