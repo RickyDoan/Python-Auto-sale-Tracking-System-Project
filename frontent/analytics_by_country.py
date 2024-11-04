@@ -2,7 +2,9 @@ import streamlit as st
 import requests
 import pandas as pd
 import plotly.express as px
-url ='http://localhost:8000'
+
+# url ='http://localhost:8000'
+url = 'https://your-public-backend-url.com'
 
 def get_analytics_country_tab():
     st.title("Sales Breakdown by Country")
