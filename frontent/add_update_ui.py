@@ -1,6 +1,6 @@
 from datetime import datetime
 import streamlit as st
-from holoviews.operation import collapse
+# from holoviews.operation import collapse
 import requests
 import os
 url = os.getenv("BACKEND_URL", "http://localhost:8000")
