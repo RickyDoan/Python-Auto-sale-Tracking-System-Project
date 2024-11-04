@@ -2,10 +2,12 @@ from datetime import datetime
 import streamlit as st
 from holoviews.operation import collapse
 import requests
+import os
+url = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 
 # url ='http://localhost:8000'
-url = 'https://your-public-backend-url.com'
+# url = 'https://your-public-backend-url.com'
 
 def get_update_tab():
     select_date = st.date_input('Enter date', datetime(2018, 1, 5), label_visibility="collapsed")
